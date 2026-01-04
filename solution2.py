@@ -193,7 +193,7 @@ weighted_prediction = (0.35 * cat_pred) + \
 sub = pd.DataFrame()
 sub['Id'] = test_ID
 sub['SalePrice'] = weighted_prediction
-sub.to_csv('submission2_1.csv', index=False)
+sub.to_csv('submission2_3.csv', index=False)
 
 print("Advanced Submission file created successfully!")
 
